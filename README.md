@@ -8,6 +8,7 @@ composer create-project laravel/laravel:^10.0 Rental-Car-App
 composer require laravel/breeze --dev
 php artisan breeze:install
 composser install
+
 php artisan make:model User -m 
 php artisan make:model Car -m 
 php artisan make:model Rental -m
